@@ -8,8 +8,8 @@ struct student
 {
   std::string name;
   int age;
-
 };
+
 void CountSort()
 {
   const std::vector<std::string> & names{

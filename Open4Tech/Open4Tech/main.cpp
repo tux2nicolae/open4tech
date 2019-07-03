@@ -6,6 +6,7 @@
 #include<fstream>
 
 // #include "CountSort.h";
+// #include "BinarySearch.h";
 
 struct student
 {
@@ -15,12 +16,12 @@ struct student
 
 void CountSort()
 {
-
 }
 
 int main()
 {
-  CountSort();
+  // CountSort();
+  // SearchTest();
 
   return 0;
 }

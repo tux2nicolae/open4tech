@@ -15,13 +15,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="names.txt">
-      <Filter>src\helpers</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="CountSort.h">
       <Filter>src\helpers</Filter>
     </ClInclude>
+    <ClInclude Include="BinarySearch.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data.txt">
+      <Filter>src\helpers</Filter>
+    </Text>
   </ItemGroup>
 </Project>
