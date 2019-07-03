@@ -21,6 +21,9 @@
     <ClInclude Include="BinarySearch.h">
       <Filter>src\helpers</Filter>
     </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt">
