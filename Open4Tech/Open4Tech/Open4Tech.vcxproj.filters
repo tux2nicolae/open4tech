@@ -24,6 +24,9 @@
     <ClInclude Include="Hash.h">
       <Filter>src\helpers</Filter>
     </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt">
