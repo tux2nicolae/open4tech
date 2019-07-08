@@ -21,6 +21,8 @@ vector<int> Dijkstra(const vector<list<edge>>& graph, int initialNode)
   vector<int> costs(graph.size(), numeric_limits<int>::max());
   costs[initialNode] = 0;
 
+  vector<bool> visited(graph.size(), false);
+
   priority_queue<int> heap;
   heap.push(initialNode);
 
@@ -31,11 +33,15 @@ vector<int> Dijkstra(const vector<list<edge>>& graph, int initialNode)
 
     for (const auto& edge : graph.at(node))
     {
-      // here is a minor performance problem if already exists in the queue
       if (costs[node] + edge.cost < costs[edge.nextNode])
       {
         costs[edge.nextNode] = costs[node] + edge.cost;
-        heap.push(edge.nextNode);
+
+        if (!visited[edge.nextNode])
+        {
+          visited[edge.nextNode] = true;
+          heap.push(edge.nextNode);
+        }
       }
     }
   }
