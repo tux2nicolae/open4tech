@@ -129,6 +129,7 @@
     <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="CountSort.h" />
     <ClInclude Include="Hash.h" />
+    <ClInclude Include="RabinKarp.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>

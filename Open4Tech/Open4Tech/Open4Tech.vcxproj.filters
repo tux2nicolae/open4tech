@@ -27,6 +27,9 @@
     <ClInclude Include="Tree.h">
       <Filter>src\helpers</Filter>
     </ClInclude>
+    <ClInclude Include="RabinKarp.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt">
