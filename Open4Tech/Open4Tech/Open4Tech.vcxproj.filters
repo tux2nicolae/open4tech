@@ -30,10 +30,21 @@
     <ClInclude Include="RabinKarp.h">
       <Filter>src\helpers</Filter>
     </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt">
       <Filter>src\helpers</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dijkstra.in">
+      <Filter>src\helpers</Filter>
+    </None>
+    <None Include="dijkstra.out">
+      <Filter>src\helpers</Filter>
+    </None>
   </ItemGroup>
 </Project>

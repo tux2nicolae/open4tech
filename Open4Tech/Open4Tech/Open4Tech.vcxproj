@@ -128,12 +128,17 @@
   <ItemGroup>
     <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="CountSort.h" />
+    <ClInclude Include="Dijkstra.h" />
     <ClInclude Include="Hash.h" />
     <ClInclude Include="RabinKarp.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dijkstra.in" />
+    <None Include="dijkstra.out" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
